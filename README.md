@@ -6,6 +6,8 @@ This is a repo that is managed by [@lyledodge](https://twitter.com/lyledodge), b
 
 - [.NET Portability Analyzer](https://docs.microsoft.com/dotnet/standard/analyzers/portability-analyzer)
 - [App Service Migration Assistant](https://appmigration.microsoft.com/)
+- [Strategic Migration Assessment and Readiness Tool](https://docs.microsoft.com/assessments/?mode=pre-assessment&session=local)
+- [Developer Velocity Self-Assessment](https://developervelocityassessment.com/)
 
 ## Azure in the Enterprise Videos
 
