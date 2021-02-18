@@ -2,6 +2,6 @@
 
 This is my playground for drawing out in Microsoft Whiteboard how a customer can *modernize* while they're moving to Azure.
 
-:::image type="content" source="modernize-while-migrating-lyledodge.svg" alt-text="Modernizing while Migrating to Azure (svg)":::
+![Modernizing while Migrating to Azure (svg)](modernize-while-migrating-lyledodge.svg)
 
-:::image type="content" source="modernize-while-migrating-lyledodge.png" alt-text="Modernizing while Migrating to Azure (png)":::
+![Modernizing while Migrating to Azure (png)](modernize-while-migrating-lyledodge.png)
