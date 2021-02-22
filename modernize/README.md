@@ -4,8 +4,7 @@ This is my playground for drawing out in Microsoft Whiteboard how a customer can
 
 Links in the drawing:
 
-  - [#1 - The five Rs of rationalization](/go/azure/five-rs)
-
+- [#1 - The five Rs of rationalization](/go/azure/five-rs)
 
 ![Modernizing while Migrating to Azure (svg)](modernize-while-migrating-lyledodge.svg)
 
