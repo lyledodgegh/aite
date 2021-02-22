@@ -1,9 +1,8 @@
 This is a repo that is managed by [@lyledodge](https://twitter.com/lyledodge), but open to contributions. It's a list of the videos produced under the title **Azure in the Enterprise** that land on a [Playlist under the main Azure YouTube channel](https://www.youtube.com/playlist?list=PLLasX02E8BPDwxoN1T18bYfbzGwP555rR), the [Twitch channel](http://twitch.com/azureintheenterprise), along with links for people that are onboarding to Azure (think of it as a curated landing page of other portals).
 
-## Reference Links for Scenarios
+## Application Modernization during the Migration to Azure (Current Project)
 
-## Application Modernization during the Migration to Azure
-
+- [The BIG Diagram with links](/modernize)
 - [.NET Portability Analyzer](https://docs.microsoft.com/dotnet/standard/analyzers/portability-analyzer)
 - [App Service Migration Assistant](https://appmigration.microsoft.com/)
 - [Strategic Migration Assessment and Readiness Tool](https://docs.microsoft.com/assessments/?mode=pre-assessment&session=local)
