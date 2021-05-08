@@ -1,12 +1,7 @@
 # Setting up a WSL based Azure Developer Machine
 
-## High Level Tasks
-
-- WSL2
-- Update Linux
-- Azure CLI
 - JMESPath / Python etc
-- Docker / Kind
+- Install Kubernetes Tooling
 - Visual Studio Code
 - Visual Studio Code Extensions
 - Handy Links
@@ -16,17 +11,30 @@
 - [Windows Subsystem for Linux Installation Guide for Windows 10 (docs.microsoft.com)](https://docs.microsoft.com/windows/wsl/install-win10)
     - Make sure your wsl distro is running WSL2. In Windows, `wsl -l -v` should have the output VERSION being 2 for the distro you're going to use.
     - Make sure your wsl distro is up to date. If you're running Ubuntu, do a `sudo apt-get update && sudo apt-get upgrade`.
+    - The short version (run as admin):
+        - `dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`
+        - `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
+        - `shutdown /r /t 0`
+        - [wsl_update_x64.msi](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+        - `wsl --set-default-version 2`
+        - Pick a linux distro from the [Microsoft Store](https://aka.ms/wslstore) - this article assumes Ubuntu
+            - Don't forget your username/password you created. It doesn't need to be the same as your Windows account (mine is not).
 
 ## Install the Azure CLI in WSL2
 
 - [Install the Azure CLI on Linux (docs.microsoft.com)](https://docs.microsoft.com/cli/azure/install-azure-cli-linux)
-    - If you're running on Ubuntu, the quick version is `curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash`
+    - The short version:
+        - `curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash`
 
 ## Install Python3, pip3, jpterm
 
 - 
 
-## x
+## Install Kubernetes Tooling
+
+- [Kind]
+    - [Using WSL2](https://kind.sigs.k8s.io/docs/user/using-wsl2/)
+- [kubectx / kubens]
 
 ## x
 
