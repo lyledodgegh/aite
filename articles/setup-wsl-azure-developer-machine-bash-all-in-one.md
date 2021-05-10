@@ -1,7 +1,7 @@
 touch .hushlogin
 sudo apt-get update && sudo apt-get -y upgrade
 
-curl -sL https://aka.ms/InstallAzureCLIDeb | bash
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
 sudo apt-get -y install python3 python3-pip ipython3
 pip3 install jmespath-terminal
