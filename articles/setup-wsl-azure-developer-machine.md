@@ -62,17 +62,11 @@ If you're brave, you can do this whole section by doing the command below, other
 
 - [Visual Studio Code - 64 bit User Installer](https://code.visualstudio.com/docs/?dv=win64user)
 - [Visual Studio Code - Marketplace Extensions](https://marketplace.visualstudio.com/vscode)
-  - [Brackets Extension Pack for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.brackets-pack)
-  - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-  - [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
-  - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
   - [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
+  - [Remote - Containers](ms-vscode-remote.remote-containers)
+  - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+  - [Bridge to Kubernetes](https://marketplace.visualstudio.com/items?itemName=mindaro.mindaro)
+  - [Kubernetes](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tool)
   - [YAML by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
-
-## Visual Studio Community 2019
-
-- [Visual Studio Community 2019](https://visualstudio.microsoft.com/vs/community/)
-
-## Handy Links
-
-- [Collection of handy Azure CLI and Bash scripts](https://pascalnaber.wordpress.com/2020/01/10/collection-of-handy-azure-cli-and-bash-scripts/)
+  - [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+  - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
