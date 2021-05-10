@@ -14,7 +14,7 @@
     - Once installed click Launch
     - Create a username/password (ideally not the same as your Windows username/password)
     - `touch .hushlogin`
-    - `sudo apt-get update && sudo apt-get upgrade`.
+    - `sudo apt-get update && sudo apt-get -y upgrade`.
 
 ## Install the Azure CLI in WSL2
 
@@ -24,7 +24,7 @@
 
 ## Install Python3, pip3, jpterm
 
-- `sudo apt-get install python3 python3-pip ipython3`
+- `sudo apt-get -y install python3 python3-pip ipython3`
 - `pip3 install jmespath-terminal`
 
 ## Install Kubernetes + Container Tooling
@@ -41,14 +41,15 @@
   - `rm go1.16.4.linux-amd64.tar.gz`
   - `export PATH=$PATH:/usr/local/go/bin`
 - [Kubectl Kubelet Kubeadm](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
+  - `sudo apt-get update`
+  - `sudo apt-get install -y apt-transport-https ca-certificates curl`
   - `sudo curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg`
   - `echo "deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list`
   - `sudo apt-get update`
   - `sudo apt-get install -y kubectl kubelet kubeadm`
-- [kubectx / kubens]
+  [kubectx / kubens]
   - `wget https://github.com/ahmetb/kubectx/releases/download/v0.9.3/kubectx`
-  - chmod +x kubectx
-  - sudo mv kubectx /usr/local/bin/
+  - `chmod +x kubectx && sudo mv kubectx /usr/local/bin/`
   - `wget https://github.com/ahmetb/kubectx/releases/download/v0.9.3/kubens`
   - `chmod +x kubens && sudo mv kubens /usr/local/bin/`
 - [Kind]
