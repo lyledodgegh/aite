@@ -54,8 +54,7 @@
 - [Kind]
   - [Using WSL2](https://kind.sigs.k8s.io/docs/user/using-wsl2/)
     - `curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.10.0/kind-linux-amd64`
-    - `chmod +x ./kind`
-    - `mv ./kind /usr/local/bin/`
+    - `chmod +x ./kind && sudo mv ./kind /usr/local/bin/`
  - [todo:Minikube](#)
 
 ## Visual Studio Code + Extensions
