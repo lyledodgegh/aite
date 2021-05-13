@@ -1,16 +1,11 @@
+# Intro
+
 Managed and maintained by by [@lyledodge](https://twitter.com/lyledodge). Below you'll find articles and videos focused on running Azure in the context of a large enterprise. Some of it lands on a [Playlist under the main Azure YouTube channel](https://www.youtube.com/playlist?list=PLLasX02E8BPDwxoN1T18bYfbzGwP555rR), or on my [Azure in the Enterprise YouTube channel](http://youtube.com/c/azureintheenterprise).
 
 ## Articles
 
 - [Setting up a WSL based Azure Developer Machine](articles/setup-wsl-azure-developer-machine.md)
-
-## Application Modernization during the Migration to Azure (Current Project)
-
-- [The BIG Diagram with links](/modernize)
-- [.NET Portability Analyzer](https://docs.microsoft.com/dotnet/standard/analyzers/portability-analyzer)
-- [App Service Migration Assistant](https://appmigration.microsoft.com/)
-- [Strategic Migration Assessment and Readiness Tool](https://docs.microsoft.com/assessments/?mode=pre-assessment&session=local)
-- [Developer Velocity Self-Assessment](https://developervelocityassessment.com/)
+- [Tooling and Reference Links](articles/tooling-and-reference-links.md)
 
 ## Azure in the Enterprise Videos
 

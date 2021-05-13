@@ -57,7 +57,6 @@ If you're brave, you can do this whole section by doing the command below, other
   - Settings -> Kubernetes -> Show system containers (advanced)
   - Click Apply & Restart, click ok on the install dialog
 
-
 ## Visual Studio Code + Extensions
 
 - [Visual Studio Code - 64 bit User Installer](https://code.visualstudio.com/docs/?dv=win64user)
