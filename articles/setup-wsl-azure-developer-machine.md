@@ -28,9 +28,9 @@ If you're brave, you can do this whole section by doing the command below, other
   - `sudo apt-get -y install python3 python3-pip ipython3`
   - `pip3 install jmespath-terminal`
 - [Go](https://golang.org/doc/install)
-  - `wget https://golang.org/dl/go1.16.4.linux-amd64.tar.gz`
-  - `sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.16.4.linux-amd64.tar.gz`
-  - `rm go1.16.4.linux-amd64.tar.gz`
+  - `wget https://golang.org/dl/go1.16.5.linux-amd64.tar.gz`
+  - `sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.16.5.linux-amd64.tar.gz`
+  - `rm go1.16.5.linux-amd64.tar.gz`
   - `export PATH=$PATH:/usr/local/go/bin`
 - [Kubectl Kubelet Kubeadm](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
   - `sudo apt-get update`
@@ -45,7 +45,7 @@ If you're brave, you can do this whole section by doing the command below, other
   - `wget https://github.com/ahmetb/kubectx/releases/download/v0.9.3/kubens`
   - `chmod +x kubens && sudo mv kubens /usr/local/bin/`
 - [Kind](https://kind.sigs.k8s.io/docs/user/using-wsl2/)
-  - `curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.10.0/kind-linux-amd64`
+  - `curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.11.1/kind-linux-amd64`
   - `chmod +x ./kind && sudo mv ./kind /usr/local/bin/`
 
 ## Docker
