@@ -1,5 +1,30 @@
 Clean install software for a Windows 11 developer setup
 
-- https://7-zip.org/
-- https://git-scm.com/downloads
-- https://www.microsoft.com/en-us/microsoft-teams/download-app
+- [7zip](https://7-zip.org/)
+- [git](https://git-scm.com/downloads)
+- [teams](https://www.microsoft.com/en-us/microsoft-teams/download-app)
+- [textgrab](https://www.microsoft.com/en-us/p/text-grab/9mznkqj7sl0b?activetab=pivot:overviewtab)
+- [obs](https://obsproject.com/download)
+- [resolve](https://www.blackmagicdesign.com/support/)
+- [elgato](https://www.elgato.com/en/downloads)
+- [chrome](https://www.google.com/chrome/)
+- [advanced scene switcher](https://obsproject.com/forum/resources/advanced-scene-switcher.395/)
+- [ndi](https://obsproject.com/forum/resources/obs-ndi-newtek-ndi%E2%84%A2-integration-into-obs-studio.528/)
+- [4k download](https://www.4kdownload.com/downloads)
+- [audacity](https://www.audacityteam.org/download/)
+- [itunes](https://www.apple.com/itunes/?cid=OAS-US-DOMAINS-itunes.com)
+- [dropbox](https://www.dropbox.com/downloading)
+- [handbrake](https://handbrake.fr/)
+- [keepass](https://keepass.info/download.html)
+- [mediainfo](https://mediaarea.net/en/MediaInfo/Download)
+- [steam](https://store.steampowered.com/about/)
+- [epic games](https://www.epicgames.com/store/en-US/download)
+- [geophoto](https://www.microsoft.com/en-us/p/geophoto-geotag-map-slideshow/9wzdncrfj0f2?activetab=pivot:overviewtab)
+- [whiteboard](https://www.microsoft.com/en-us/microsoft-365/microsoft-whiteboard/digital-whiteboard-app)
+- [multipass](https://multipass.run/)
+- [nvidia](https://www.nvidia.com/Download/index.aspx?lang=en-us)
+- [office](https://www.office.com/?auth=1)
+- [skype](https://www.skype.com/en/get-skype/download-skype-for-desktop/)
+- [powertoyw](https://docs.microsoft.com/en-us/windows/powertoys/install)
+- [pia](https://www.privateinternetaccess.com/download)
+- [mouse keyboard center](https://support.microsoft.com/en-us/topic/mouse-and-keyboard-center-download-f5b10905-7887-eedb-2f1c-d0737a36a3b2)
