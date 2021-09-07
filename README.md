@@ -7,6 +7,7 @@ Managed and maintained by by [@lyledodge](https://twitter.com/lyledodge). Below 
 - [Setting up a WSL based Azure Developer Machine](articles/setup-wsl-azure-developer-machine.md)
 - [Tooling and Reference Links](articles/tooling-and-reference-links.md)
 - [Reinstalling Windows + WSL Developer Setup Links](tooling.md)
+- [Random Tips](random-tips.md)
 
 ## Azure in the Enterprise Videos
 
