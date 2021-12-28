@@ -1,4 +1,4 @@
-Clean install software for a Windows 11 developer setup
+# Clean install software for a Windows 11 developer setup
 
 - [7zip](https://7-zip.org/)
 - [git](https://git-scm.com/downloads)
