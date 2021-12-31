@@ -15,3 +15,5 @@ dism /split-image /imagefile:c:\iso\sources\install.wim /swmfile:c:\iso\sources\
 del \iso\sources\install.wim
 xcopy \iso\* thumbdrive:\ /s /e
 ```
+
+Jekyll Tips - https://devhints.io/jekyll-github
