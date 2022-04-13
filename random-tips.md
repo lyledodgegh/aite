@@ -16,4 +16,12 @@ del \iso\sources\install.wim
 xcopy \iso\* thumbdrive:\ /s /e
 ```
 
+*Bypass Windows 11 Requirements for Hyper-V lab setup*
+
+```
+regedit (SHIFT+F10)
+HKEY_LOCAL_MACHINE\SYSTEM\Setup -> New Key "LabConfig"
+New DWORD (32) with value set to 1 -> BypassTPMCheck, BypassRAMCheck, BypassSecureBootCheck
+```
+
 Jekyll Tips - https://devhints.io/jekyll-github
