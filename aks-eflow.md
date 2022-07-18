@@ -7,6 +7,7 @@ Start by watching the [Project Haven: Kubernetes for the embedded edge Microsoft
 - [Get a Windows 11 Developer Environment](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/)
 - [Install the Azure CLI](https://aka.ms/installazurecliwindows)
 - [Latest PowerShell (optional)](https://aka.ms/pswindows)
+- [kubectx / kubens](https://github.com/ahmetb/kubectx/releases)
 
 *Configure Nested Virtualization in Hyper-V (for a specific vm) [source](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/nested-virtualization)*
 
