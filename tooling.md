@@ -7,6 +7,7 @@
 - [obs](https://obsproject.com/download)
 - [obs - animated lower thirds](https://obsproject.com/forum/resources/animated-lower-thirds-with-dockable-control-panel.1057/)
 - [obs - advanced scene switcher](https://obsproject.com/forum/resources/advanced-scene-switcher.395/)
+- [obs - rtsp server](https://github.com/iamscottxu/obs-rtspserver)
 - [obs - ndi](https://obsproject.com/forum/resources/obs-ndi-newtek-ndi%E2%84%A2-integration-into-obs-studio.528/)
 - [resolve](https://www.blackmagicdesign.com/support/)
 - [elgato (streamdeck, 4k capture)](https://www.elgato.com/en/downloads)
