@@ -1,6 +1,6 @@
 # Intro
 
-Managed and maintained by by [@lyledodge](https://twitter.com/lyledodge). Below you'll find articles and videos focused on running Azure in the context of a large enterprise. Some of it lands on a [Playlist under the main Azure YouTube channel](https://www.youtube.com/playlist?list=PLLasX02E8BPDwxoN1T18bYfbzGwP555rR), or on my [Azure in the Enterprise YouTube channel](http://youtube.com/c/azureintheenterprise).
+Managed and maintained by [@lyledodge](https://twitter.com/lyledodge). Below you'll find articles and videos focused on running Azure in the context of a large enterprise. Some of it lands on a [Playlist under the main Azure YouTube channel](https://www.youtube.com/playlist?list=PLLasX02E8BPDwxoN1T18bYfbzGwP555rR), or on my [Azure in the Enterprise YouTube channel](http://youtube.com/c/azureintheenterprise).
 
 ## Articles
 
