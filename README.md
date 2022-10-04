@@ -12,6 +12,7 @@ Managed and maintained by [@lyledodge](https://twitter.com/lyledodge). Below you
 
 ## Azure in the Enterprise Videos
 
+- 2022.10.04 - [What is Pilot in a Box from the github.com/kubernetes101 team?](https://www.youtube.com/watch?v=zrn0UusPLNo)
 - 2020.10.23 - [Azure Kubernetes Service, Azure Red Hat OpenShift, OpenShift Container Platform - Purchasing Models](https://youtu.be/2KJdA9Su82c)
 - 2020.09.28 - [Hybrid Networking in Azure Red Hat OpenShift](https://www.youtube.com/watch?v=G4VCzeu7K9k)
 - 2020.09.01 - [How to use the Spring framework to access Azure Storage](https://youtu.be/d4SfosPWz8s)
