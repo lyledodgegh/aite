@@ -24,4 +24,11 @@ HKEY_LOCAL_MACHINE\SYSTEM\Setup -> New Key "LabConfig"
 New DWORD (32) with value set to 1 -> BypassTPMCheck, BypassRAMCheck, BypassSecureBootCheck
 ```
 
-Jekyll Tips - https://devhints.io/jekyll-github
+*Update and Install WSL2 when on machines with over restrictive group policy*
+
+execute from an elevated PowerShell prompt
+
+```powershell
+wsl --update --web-download
+wsl --install
+```
