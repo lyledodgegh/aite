@@ -32,3 +32,11 @@ execute from an elevated PowerShell prompt
 wsl --update --web-download
 wsl --install
 ```
+
+*Configure WinRM when you get something like the error message below - say Y to the two prompts*
+
+```powershell
+WinRM QuickConfig
+```
+
+Enter-PSSession: Connecting to remote server **servername** failed with the following error message : WinRM cannot complete the operation. Verify that the specified computer name is valid, that the computer is accessible over the network, and that a firewall exception for the WinRM service is enabled and allows access from this computer. By default, the WinRM firewall exception for public profiles limits access to remote computers within the same local subnet. For more information, see the about_Remote_Troubleshooting Help topic.
