@@ -8,7 +8,6 @@ Managed and maintained by [@lyledodge](https://twitter.com/lyledodge). Below you
 - [Tooling and Reference Links](articles/tooling-and-reference-links.md)
 - [Reinstalling Windows + WSL Developer Setup Links](tooling.md)
 - [Random Tips](random-tips.md)
-- [NOTES for Project Haven: Kubernetes for the embedded edge](aks-eflow.md)
 - [Azure Adoption](articles/azure-adoption-articles.md)
 
 ## Azure in the Enterprise Videos
