@@ -40,3 +40,9 @@ WinRM QuickConfig
 ```
 
 Enter-PSSession: Connecting to remote server **servername** failed with the following error message : WinRM cannot complete the operation. Verify that the specified computer name is valid, that the computer is accessible over the network, and that a firewall exception for the WinRM service is enabled and allows access from this computer. By default, the WinRM firewall exception for public profiles limits access to remote computers within the same local subnet. For more information, see the about_Remote_Troubleshooting Help topic.
+
+*Updating Ubuntu in one line*
+
+```bash
+sudo apt update && sudo apt upgrade && sudo apt dist-upgrade && sudo apt autoremove && sudo apt auto-clean
+```
