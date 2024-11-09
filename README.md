@@ -9,6 +9,7 @@ Managed and maintained by [@lyledodge](https://twitter.com/lyledodge). Below you
 - [Reinstalling Windows + WSL Developer Setup Links](tooling.md)
 - [Random Tips](random-tips.md)
 - [Azure Adoption](articles/azure-adoption-articles.md)
+- [GitHub Stuff](/github/)
 
 ## Azure in the Enterprise Videos
 
