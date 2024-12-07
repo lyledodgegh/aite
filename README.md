@@ -10,6 +10,7 @@ Managed and maintained by [@lyledodge](https://twitter.com/lyledodge). Below you
 - [Random Tips](random-tips.md)
 - [Azure Adoption](articles/azure-adoption-articles.md)
 - [GitHub Stuff](/github/)
+- [Backstage Tips](/backstage.md)
 
 ## Azure in the Enterprise Videos
 
