@@ -11,6 +11,7 @@ Managed and maintained by [@lyledodge](https://twitter.com/lyledodge). Below you
 - [Azure Adoption](articles/azure-adoption-articles.md)
 - [GitHub Stuff](/github/)
 - [Backstage Tips](/backstage.md)
+- [Aspire Dashboard](/aspire-dashboard.md)
 
 ## Azure in the Enterprise Videos
 
