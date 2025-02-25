@@ -46,3 +46,14 @@ Enter-PSSession: Connecting to remote server **servername** failed with the foll
 ```bash
 sudo apt update && sudo apt upgrade && sudo apt dist-upgrade && sudo apt autoremove && sudo apt auto-clean
 ```
+
+*Install .NET 9.0 on Ubuntu*
+
+https://learn.microsoft.com/en-us/dotnet/core/install/linux-debian?tabs=dotnet9
+
+```bash
+wget https://packages.microsoft.com/config/debian/12/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+rm packages-microsoft-prod.deb
+sudo apt-get update && sudo apt-get install -y dotnet-sdk-9.0
+```
