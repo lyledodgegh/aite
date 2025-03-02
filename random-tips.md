@@ -44,7 +44,7 @@ Enter-PSSession: Connecting to remote server **servername** failed with the foll
 *Updating Ubuntu in one line*
 
 ```bash
-sudo apt update && sudo apt upgrade && sudo apt dist-upgrade && sudo apt autoremove && sudo apt auto-clean
+sudo apt update -y && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt autoremove -y && sudo apt auto-clean -y
 ```
 
 *Install .NET 9.0 on Ubuntu*
