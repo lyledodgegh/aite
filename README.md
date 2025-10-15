@@ -2,16 +2,11 @@
 
 Managed and maintained by [@lyledodge](https://twitter.com/lyledodge). Below you'll find articles and [videos](http://youtube.com/c/azureintheenterprise) focused on running Azure in the context of a large enterprise.
 
-## Articles
+## Random Things
 
-- [Setting up a WSL based Azure Developer Machine](articles/setup-wsl-azure-developer-machine.md)
-- [Tooling and Reference Links](articles/tooling-and-reference-links.md)
-- [Reinstalling Windows + WSL Developer Setup Links](tooling.md)
+- [Windows 11 Reinstall Links](tooling.md)
 - [Random Tips](random-tips.md)
-- [Azure Adoption](articles/azure-adoption-articles.md)
-- [GitHub Stuff](/github/)
-- [Backstage Tips](/backstage.md)
-- [Aspire Dashboard](/aspire-dashboard.md)
+- [Helpers](helpers/) - random collection of scripts for developers
 
 ## Azure in the Enterprise Videos
 

@@ -1,4 +1,4 @@
-# Clean install software for a Windows 11 developer setup
+# List of software I typically install on a clean Windows 11 install
 
 - [7zip](https://7-zip.org/)
 - [git](https://git-scm.com/downloads)
@@ -17,8 +17,8 @@
 - [itunes](https://www.apple.com/itunes/?cid=OAS-US-DOMAINS-itunes.com)
 - [dropbox](https://www.dropbox.com/downloading)
 - [handbrake](https://handbrake.fr/)
-- [vs code](https://code.visualstudio.com/)
-- [vs 2022 community](https://my.visualstudio.com/)
+- [vs code insiders](https://code.visualstudio.com/insiders/)
+- [vs 2026 insiders](https://visualstudio.microsoft.com/insiders/)
 - [vlc](https://videolan.org)
 - [keepass](https://keepass.info/)
 - [mediainfo](https://mediaarea.net/en/MediaInfo/Download)
@@ -27,7 +27,6 @@
 - [multipass](https://multipass.run/)
 - [nvidia](https://www.nvidia.com/Download/index.aspx?lang=en-us)
 - [office](https://www.office.com/?auth=1)
-- [skype](https://www.skype.com/en/get-skype/download-skype-for-desktop/)
 - [powertoys](https://docs.microsoft.com/en-us/windows/powertoys/install)
 - [pia](https://www.privateinternetaccess.com/download)
 - [mouse keyboard center](https://support.microsoft.com/en-us/topic/mouse-and-keyboard-center-download-f5b10905-7887-eedb-2f1c-d0737a36a3b2)

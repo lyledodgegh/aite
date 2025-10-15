@@ -2,7 +2,7 @@ title: Azure in the Enterprise
 description: >- # this means to ignore newlines until "baseurl:"
   Adopting Azure in the context of an organization.
 twitter_username: lyledodge
-github_username: lyledodgepersonal
+github_username: lyledodgegh
 
 # Build settings
 theme: jekyll-theme-slate
