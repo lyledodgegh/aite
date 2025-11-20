@@ -1,5 +1,11 @@
 Some random tips I've found across the internet that I use on occasion.
 
+*Initiate Teams Chat via web to a bunch of people*
+
+```
+https://teams.microsoft.com/l/chat/0/0?users=email1,email2,email3
+```
+
 *Configure Nested Virtualization in Hyper-V (for a specific vm) [source](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/nested-virtualization)*
 
 ```
