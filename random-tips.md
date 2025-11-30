@@ -1,5 +1,23 @@
 Some random tips I've found across the internet that I use on occasion.
 
+*Install/Update Claude Code*
+
+```bash
+curl -fsSL https://claude.ai/install.sh | bash
+```
+
+*Install/Update Copilot CLI*
+
+```bash
+npm install -g @github/copilot@latest
+```
+
+*Install latest npm*
+
+```bash
+sudo npm install -g npm@latest
+```
+
 *Initiate Teams Chat via web to a bunch of people*
 
 ```
@@ -8,13 +26,13 @@ https://teams.microsoft.com/l/chat/0/0?users=email1,email2,email3
 
 *Configure Nested Virtualization in Hyper-V (for a specific vm) [source](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/nested-virtualization)*
 
-```
+```powershell
 Set-VMProcessor -VMName <VMName> -ExposeVirtualizationExtensions $true
 ```
 
 *Split a >4GB iso wim file [source](https://www.neowin.net/forum/topic/1242296-windows-server-2012-r2-dc-edition-uefi-install-nightmare/?do=findComment&comment=596707506)*
 
-```
+```cmd
 mkdir \iso
 xcopy cdrom:\* \iso /s /e
 dism /split-image /imagefile:c:\iso\sources\install.wim /swmfile:c:\iso\sources\install.swm /filesize:4095 /checkintegrity
