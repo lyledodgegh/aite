@@ -117,3 +117,86 @@ else
     print_status "GitHub Copilot CLI is installed"
 fi
 
+
+# Check if Microsoft LTS OpenJDK is installed
+print_status "Checking Microsoft LTS OpenJDK installation..."
+
+if command -v java &> /dev/null; then
+    current_java_version=$(java -version 2>&1 | head -n 1)
+    print_status "Java is currently installed: $current_java_version"
+    
+    # Check if it's Microsoft's OpenJDK
+    if java -version 2>&1 | grep -q "Microsoft"; then
+        print_status "Microsoft OpenJDK is already installed"
+    else
+        print_warning "Java is installed but not Microsoft OpenJDK. Installing Microsoft LTS OpenJDK..."
+        sudo apt update && sudo apt install msopenjdk-21 -y
+        print_status "Microsoft LTS OpenJDK installed successfully!"
+    fi
+else
+    print_status "Java not found. Installing Microsoft LTS OpenJDK..."
+    sudo apt update && sudo apt install msopenjdk-21 -y
+    print_status "Microsoft LTS OpenJDK installed successfully!"
+fi
+
+# Verify Java installation
+if java -version &> /dev/null; then
+    print_status "Java is ready to use!"
+    java -version
+else
+    print_error "Java installation verification failed"
+    exit 1
+fi
+
+
+# Check if Docker is installed
+print_status "Checking Docker installation..."
+
+if command -v docker &> /dev/null; then
+    docker_version=$(docker --version)
+    print_status "Docker is installed: $docker_version"
+else
+    print_status "Docker not found. Installing Docker..."
+    sudo apt remove $(dpkg --get-selections docker.io docker-compose docker-compose-v2 docker-doc podman-docker containerd runc | cut -f1)
+    curl -fsSL https://get.docker.com -o get-docker.sh
+    sudo sh get-docker.sh
+    rm get-docker.sh
+    
+    # Add current user to docker group
+    sudo usermod -aG docker $USER
+    print_status "Docker installed successfully!"
+    print_warning "Please log out and log back in for group membership changes to take effect"
+fi
+
+# Verify Docker installation
+if docker --version &> /dev/null; then
+    print_status "Docker is ready to use!"
+    docker --version
+else
+    print_error "Docker installation verification failed"
+    exit 1
+fi
+
+
+# Check if Claude Code CLI is installed
+print_status "Checking Claude Code CLI installation..."
+
+if command -v claude &> /dev/null; then
+    claude_version=$(claude --version 2>&1)
+    print_status "Claude Code CLI is installed: $claude_version"
+else
+    print_status "Claude Code CLI not found. Installing..."
+    curl -fsSL https://claude.ai/install.sh | bash -s latest
+    echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc && source ~/.bashrc
+    print_status "Claude Code CLI installed successfully!"
+fi
+
+# Verify Claude Code installation
+if command -v claude &> /dev/null; then
+    print_status "Claude Code CLI is ready to use!"
+    claude --version
+else
+    print_error "Claude Code CLI installation verification failed"
+    exit 1
+fi
+
