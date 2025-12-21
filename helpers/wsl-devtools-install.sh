@@ -56,5 +56,10 @@ EOF
 sudo apt update -y
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-compose -y
 
+# python3
+sudo apt-get install python3-full python3-pip -y
+
 # update all npm packages
 npm install -g npm@latest
+
+
